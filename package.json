@@ -1,0 +1,15 @@
+{
+  "name": "com.pixelplacement.surge",
+  "version": "1.0.0",
+  "displayName": "Surge",
+  "description": "This is an utility package from pixelplacement for Unity game",
+  "unity": "2018.4",
+  "unityRelease": "3f1",
+  "keywords": [],
+  "author": {
+    "name": "pixelplacement",
+    "email": "bobb@pixelplacement.com",
+    "url": "http://surge.pixelplacement.com/index.html"
+  },
+  "type": "tool"
+}
