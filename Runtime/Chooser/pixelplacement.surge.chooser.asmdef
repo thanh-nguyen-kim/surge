@@ -1,7 +1,7 @@
 {
     "name": "pixelplacement.surge.chooser",
     "references": [
-        "GUID:77f973324fa5f4fe280d144ffe2e2802"
+        "pixelplacement.surge.events"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

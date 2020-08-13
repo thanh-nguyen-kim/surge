@@ -1,9 +1,9 @@
 {
     "name": "pixelplacement.surge.editor",
     "references": [
-        "GUID:f598cd247c61d4558bac1e0b24ce64f9",
-        "GUID:7b6bfa63709a6463f836a85bb70cefd5",
-        "GUID:1d13f5fc670254bdea50d04537ec4da0"
+        "pixelplacement.surge.statemachine",
+        "Pixelplacement.Surge.Utilities",
+        "pixelplacement.surge.displayobject"
     ],
     "includePlatforms": [
         "Editor"

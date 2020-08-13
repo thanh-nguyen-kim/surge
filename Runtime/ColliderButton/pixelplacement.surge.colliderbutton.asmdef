@@ -1,8 +1,8 @@
 {
     "name": "pixelplacement.surge.colliderbutton",
     "references": [
-        "GUID:ddc2a5fb6502a4aa3a0dc1951a3c2bb9",
-        "GUID:f35934a82400e49b3a1ce14107034048"
+        "pixelplacement.surge.tween",
+        "pixelplacement.surge.chooser"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
