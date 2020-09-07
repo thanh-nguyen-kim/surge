@@ -13,11 +13,11 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using System;
 using Pixelplacement.TweenSystem;
-#if UNITY_2017_2_OR_NEWER
-using UnityEngine.XR;
-#else
-using UnityEngine.VR;
-#endif
+// #if UNITY_2017_2_OR_NEWER
+// using UnityEngine.XR;
+// #else
+// using UnityEngine.VR;
+// #endif
 
 namespace Pixelplacement
 {
@@ -244,12 +244,12 @@ namespace Pixelplacement
             //for in editor updating of the gui collider:
             if (!Application.isPlaying) return;
 
-            //VR status:
-#if UNITY_2017_2_OR_NEWER
-            _vrRunning = (XRSettings.isDeviceActive);
-#else
-            _vrRunning = (VRSettings.isDeviceActive);
-#endif
+//             //VR status:
+// #if UNITY_2017_2_OR_NEWER
+//             _vrRunning = (XRSettings.isDeviceActive);
+// #else
+//             _vrRunning = (VRSettings.isDeviceActive);
+// #endif
 
             if (!interactable) return;
 
